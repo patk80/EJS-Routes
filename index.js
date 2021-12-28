@@ -13,6 +13,10 @@ app.get("/", (req, res) => {
     res.render("home");
 });
 
+app.get("/new", (req, res) => {
+    res.render("new");
+});
+
 app.post("/tacos", (req, res) => {
     const {meat, qty} = req.body;
     res.send(`Okay, here are your ${qty} ${meat} tacos!!!`);
