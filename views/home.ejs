@@ -1,0 +1,14 @@
+<%- include("partials/head")%>
+<body>
+    <%- include("partials/navbar")%>
+    <h1>HOME PAGE</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa placeat praesentium adipisci non a minima quo at provident aspernatur. Enim reprehenderit reiciendis exercitationem delectus?</p>
+    <h2> <%= 56 + 60 %> </h2>
+
+    <form action="http://localhost:3000/tacos" method="POST">
+        <input type="text" name="meat">
+        <input type="number" name="qty">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
