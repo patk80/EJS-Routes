@@ -1,3 +1,19 @@
+/*********** Global Styles Start ***********/
 body {
     background-color: #51af57;
 }
+/*********** Global Styles End ***********/
+
+
+
+/*********** Navbar Start ***********/
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+-webkit-box-shadow: none;
+        box-shadow: none;
+}
+/*********** Navbar End ***********/
